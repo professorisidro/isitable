@@ -18,46 +18,46 @@ Estrutura do JSON armazenado
 
 ```json
 {	
-  "table_id":1,
+  "tableId":1,
   "metadata":[
 		{
-          "field_id": 1,		
-		  "field_name":"id_lead",
-		  "field_type":"autonumber"
+          "fieldId": 1,		
+		  "fieldName":"id_lead",
+		  "fieldType":"autonumber"
 	    },
 		{
-          "field_id": 2,		
-		  "field_name":"nome",
-		  "field_type":"single_line"
+          "fieldId": 2,		
+		  "fieldName":"nome",
+		  "fieldType":"single_line"
 	    },
 		{
-          "field_id": 3,		
-		  "field_name":"email",
-		  "field_type":"email"
+          "fieldId": 3,		
+		  "fieldName":"email",
+		  "fieldType":"email"
 	    },
 		{
-          "field_id": 4,		
-		  "field_name":"telefone",
-		  "field_type":"phone_number"
+          "fieldId": 4,		
+		  "fieldName":"telefone",
+		  "fieldType":"phone_number"
 	    }
 	],
 	"data":[
 		{
 			"row": [
 				{
-					"field_name":"id_lead",
+					"fieldName":"id_lead",
 					"value": "1"	
 				},
 				{
-					"field_name":"nome",
+					"fieldName":"nome",
 					"value": "Professor Isidro"
 				},
 				{
-					"field_name":"email",
+					"fieldName":"email",
 					"value": "isidro@isidro.com"
 				},
 				{
-					"field_name":"telefone",
+					"fieldName":"telefone",
 					"value": "11987654321"
 				}
 			]
@@ -65,19 +65,19 @@ Estrutura do JSON armazenado
 	    {
 			"row" : [
 				{
-					"field_name":"id_lead",
+					"fieldName":"id_lead",
 					"value": "2"	
 				},
 				{
-					"field_name":"nome",
+					"fieldName":"nome",
 					"value": "Joao do Teste"
 				},
 				{
-					"field_name":"email",
+					"fieldName":"email",
 					"value": "joao@teste.com"
 				},
 				{
-					"field_name":"telefone",
+					"fieldName":"telefone",
 					"value": "11987654322"
 				}
 			
